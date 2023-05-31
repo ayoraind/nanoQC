@@ -1,0 +1,8 @@
+name: nanoqc
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bioconda::nanoqc
+  - multiqc=1.14
